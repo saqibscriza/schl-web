@@ -2,6 +2,7 @@ import { Button, styled } from "@mui/material";
 import freedomoIcon from "../assets/demoButtonIcon.png";
 
 const FreeDemoButton = ({ content, onSubmit }) => {
+  console.log('new web ERP')
   return (
     <ButtonStyle
       onSubmit={onSubmit}
