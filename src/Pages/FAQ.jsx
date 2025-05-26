@@ -14,7 +14,7 @@ import GetInTouch from "../components/getInTouch/GetInTouch";
 
 const faqData = [
     {
-        question: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        question: "Lorem Ipsum is simply dummy text of the printing and typesetting industryyyyyyyyyy.",
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
         image: "/FaqImage.svg", // add your image path here
     },
