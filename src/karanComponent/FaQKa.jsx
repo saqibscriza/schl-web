@@ -175,7 +175,6 @@ export default FaQ;
 const AccordianSection = styled("div")`
   width: 100%;
   heigth: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
