@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import MenuPage from "./MenuPageKa";
-import edu2all from "../assets/edu2all.jpg";
+import img from "../assets/edu2all.jpg";
+// import edu2all from "../assets/edu2all.jpg";
 import edu2AllEligible from "../assets/edu2AllEligible.jpg";
 import cloudBased from "../assets/cloudBased.jpg";
 import features from "../assets/feaures.jpg";
 // import mobileApp from "../assets/mobileApp.jpg";
-import features2 from '../assets/features.jpg'
+import features2 from '../assets/features.jpg'  
 
 import {
   Accordion,
@@ -53,7 +54,7 @@ const accordianContent = [
         installation required.
       </>
     ),
-    image: edu2all,
+    image: img,
   },
   {
     header: "What are the main features of edu2all?",
@@ -94,6 +95,7 @@ const FaQ = () => {
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
+
 console.log('updated content and image')
   return (
     <FaqMainContainer>
@@ -174,7 +176,7 @@ export default FaQ;
 
 const AccordianSection = styled("div")`
   width: 100%;
-  heigth: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
