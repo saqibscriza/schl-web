@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MenuPage from "./MenuPageKa";
-import img from "../assets/edu2all.jpg";
+import img from "../assets/edu2All.jpg";
 // import edu2all from "../assets/edu2all.jpg";
 import edu2AllEligible from "../assets/edu2AllEligible.jpg";
 import cloudBased from "../assets/cloudBased.jpg";
