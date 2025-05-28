@@ -26,7 +26,7 @@ const ButtonStyle = styled(Button)`
   display: flex;
   font: 400 14px "Sora";
   justify-content: space-between;
-  postion: relative;
+  position: relative;
   & .MuiButton-endIcon {
     position: absolute;
     left: 164px;
