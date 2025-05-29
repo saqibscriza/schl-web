@@ -16,6 +16,7 @@ import { NavLink, Link as RouterLink } from "react-router-dom";
 
 import BG from "/FooterBG.svg";
 const Footer = () => {
+  console.log('console in updated footer')
   return (
     <>
       <Box
